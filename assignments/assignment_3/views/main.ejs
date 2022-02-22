@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page of expressJS assignment 3</title>
+    <link rel="stylesheet" href="/main_style.css">
+  </head>
+  <body>
+    <div class="heading">
+        <h1>MAIN PAGE</h1>
+      <em>Hello from assignment 3</em>
+    </div>
+
+    <div class="userdetails">
+      <% users.forEach(user=>{%>
+      <div class="eachuser">
+        <h3><%=user.name%></h3>
+        <em><%=user.email%></em>
+      </div>
+      <%}) %>
+    </div>
+    <div class="btn">
+      <button type="button" class="submit"><a id="link" href="./form">Add user details</a></button>
+    </div>
+  </body>
+</html>
