@@ -1,0 +1,42 @@
+h1{
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('./images/virus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+ 
+    text-align: center;
+}
+
+.bar{
+    margin-bottom: 10px;
+}
+.inputbar{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn{
+    height: 40px;
+    width: 80px;
+    border-style: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
