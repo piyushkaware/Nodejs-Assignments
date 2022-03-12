@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form document for adding name and email</title>
+    <link rel="stylesheet" href="/form_style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>ADD DETAILS</h1>
+    </div>
+    <form action="/user/add" method="post" class="form">
+      <div class="insideform">
+        <div>
+          <label for="name">Name</label>
+        </div>
+        <div class="bar">
+          <input class="inputbar" type="text" id="name" name="name" />
+        </div>
+
+        <div>
+          <label for="email">Email Id</label>
+        </div>
+        <div class="bar">
+          <input class="inputbar" type="text" id="email" name="email" />
+        </div>
+
+        <div>
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
